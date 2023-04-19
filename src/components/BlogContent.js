@@ -5,3 +5,10 @@ function BlogContent(props) {
 }
 
 export default BlogContent;
+
+
+
+function BlogContent(props) {
+  return <div>{props.articleText}</div>;
+}
+
